@@ -126,7 +126,7 @@
               ul.lista-ul--color.mb-0.ms-3
                 li.mb-2.d-flex
                   i.fas.fa-leaf.bg-color-7
-                  p.mb-0 Higiene personal: lavado correcto de manos, baño regular, cuidado dental, uso de ropa limpia
+                  p.mb-0 <b>Higiene personal</b>: lavado correcto de manos, baño regular, cuidado dental, uso de ropa limpia
                 li.mb-2.d-flex
                   i.fas.fa-leaf.bg-color-7
                   p.mb-0 <b>Higiene alimentaria:</b> lavado y almacenamiento adecuado de alimentos, cocción completa.
@@ -211,7 +211,7 @@
           .bg-color-26.w-100
             .p-4.text-center
               h5 Energía térmica 
-          p.mb-0.bg-color-27.p-4 Combustión de carbón, gas o petróleo - termoeléctricas
+          p.mb-0.bg-color-27.p-3.p-xl-4 Combustión de carbón, gas o petróleo - termoeléctricas
       .col-md-6.col-lg-3.mb-3.mb-lg-0
         .tarjeta-avatar.pst
           img(src='@/assets/curso/tema2/12.svg', style="max-width: 90px" alt='AvatarTop')
@@ -257,7 +257,7 @@
     TabsC.color-acento-contenido.mb-5
       .p-5(titulo="Gas")
         .row.align-items-center
-          .col-md-7.mb-4.mb-md-0.order-lg-2
+          .col-lg-7.mb-4.mb-md-0.order-lg-2
             h4 Gas
             ul.lista-ul--color.mb-0.ms-3
               li.mb-3.d-flex
@@ -273,12 +273,12 @@
                 i.fas.fa-leaf.bg-color-7
                 p.mb-0 <b>Requiere</b> instalaciones seguras.
         
-          .col-md-5.order-lg-1
+          .col-lg-5.order-lg-1
             figure
               img(src='@/assets/curso/tema2/14.png', alt='Texto que describa la imagen')
       .p-5(titulo="Electricidad")
         .row.align-items-center
-          .col-md-7.mb-4.mb-md-0.order-lg-2
+          .col-lg-7.mb-4.mb-md-0.order-lg-2
             h4 Electricidad
             ul.lista-ul--color.mb-0.ms-3
               li.mb-3.d-flex
@@ -291,12 +291,12 @@
                 i.fas.fa-leaf.bg-color-7
                 p.mb-0 <b>Limitación</b>: depende del servicio eléctrico constante y puede ser costosa.
         
-          .col-md-5.order-lg-1
+          .col-lg-5.order-lg-1
             figure
               img(src='@/assets/curso/tema2/15.png', alt='Texto que describa la imagen')
       .p-5(titulo="Leña o carbón")
         .row.align-items-center
-          .col-md-7.mb-4.mb-md-0.order-lg-2
+          .col-lg-7.mb-4.mb-md-0.order-lg-2
             h4 Leña o carbón
             ul.lista-ul--color.mb-0.ms-3
               li.mb-3.d-flex
@@ -312,12 +312,12 @@
                 i.fas.fa-leaf.bg-color-7
                 p.mb-0 <b>Desventajas</b>: produce humo (afecta la salud), menor eficiencia energética.
         
-          .col-md-5.order-lg-1
+          .col-lg-5.order-lg-1
             figure
               img(src='@/assets/curso/tema2/16.png', alt='Texto que describa la imagen')
       .p-5(titulo="Biogás")
         .row.align-items-center
-          .col-md-7.mb-4.mb-md-0.order-lg-2
+          .col-lg-7.mb-4.mb-md-0.order-lg-2
             h4 Biogás
             ul.lista-ul--color.mb-0.ms-3
               li.mb-3.d-flex
@@ -333,12 +333,12 @@
                 i.fas.fa-leaf.bg-color-7
                 p.mb-0 <b>Requiere</b> inversión inicial y manejo técnico adecuado.
         
-          .col-md-5.order-lg-1
+          .col-lg-5.order-lg-1
             figure
               img(src='@/assets/curso/tema2/17.png', alt='Texto que describa la imagen')
       .p-5(titulo="Energía solar")
         .row.align-items-center
-          .col-md-7.mb-4.mb-md-0.order-lg-2
+          .col-lg-7.mb-4.mb-md-0.order-lg-2
             h4 Energía solar
             ul.lista-ul--color.mb-0.ms-3
               li.mb-3.d-flex
@@ -351,7 +351,7 @@
                 i.fas.fa-leaf.bg-color-7
                 p.mb-0 <b>Limitaciones</b>: depende del clima, cocción más lenta.
         
-          .col-md-5.order-lg-1
+          .col-lg-5.order-lg-1
             figure
               img(src='@/assets/curso/tema2/18.png', alt='Texto que describa la imagen')
 
@@ -364,7 +364,7 @@
     
         .row.align-items-start
           .col-lg-auto
-            img(src="@/assets/curso/tema2/20.svg", style="max-width: 90px").mx-auto
+            img.d-none.d-lg-flex(src="@/assets/curso/tema2/20.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0 Por esta razón, en los últimos años se han promovido campañas para sustituir los fogones tradicionales por tecnologías limpias, más eficientes y con menos emisiones contaminantes, como los fogones mejorados, el uso de GLP, biogás o cocinas solares.
     
@@ -417,7 +417,7 @@
               ul.lista-ul--color.mb-0.ms-3
                 li.mb-2.d-flex
                   i.fas.fa-leaf.bg-color-7
-                  p.mb-0 Construcción sólida (paredes, techo, pisos firmes).a.
+                  p.mb-0 Construcción sólida (paredes, techo, pisos firmes).
                 li.mb-2.d-flex
                   i.fas.fa-leaf.bg-color-7
                   p.mb-0 Resistencia al clima (lluvia, viento, calor).
